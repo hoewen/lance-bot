@@ -12,16 +12,8 @@ client.on('message', message => {
 
 client.on('message', message => {
      if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("I punched Sendak!")) {
-               message.channel.send("Yeah, apparently after I emerged from a coma and shot his arm off.")
-  	}
-
-});
-
-client.on('message', message => {
-     if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("We had a bonding moment. I cradled you in my arms!")) {
-               message.channel.send("Nope. Don't remember, didn't happen.")
+     if(message.content.toLowerCase().includes("lance is gay")) {
+               message.channel.send("...")
   	}
 
 });
