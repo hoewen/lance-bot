@@ -12,7 +12,7 @@ client.on('message', message => {
 
 client.on('message', message => {
      if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("I punched Sendak!")) {
+     if(message.content().includes("I punched Sendak!")) {
                message.channel.send("Yeah, apparently after I emerged from a coma and shot his arm off.")
   	}
 
