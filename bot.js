@@ -18,5 +18,13 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("lance is gay")) {
+               message.channel.send("Wait no-")
+  	}
+
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
